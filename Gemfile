@@ -5,6 +5,9 @@ gem 'rails', '4.1.7'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'spork'
 end
 
 gem 'sass-rails', '~> 4.0.3'
@@ -15,6 +18,8 @@ gem 'turbolinks'
 
 group :test do
   gem 'capybara'
+  gem 'rb-inotify'
+  gem 'libnotify'
 end
 
 group :production do
